@@ -1,47 +1,6 @@
-```
-┌───────────────────────────────────────────────┐
-                                       _       
-     __ _  ___   ___  _ __ _ __ ___   (_) ___  
-    / _` |/ _ \ / _ \| '__| '_ ` _ \  | |/ _ \ 
-   | (_| | (_) | (_) | |  | | | | | |_| | (_) |
-    \__, |\___/ \___/|_|  |_| |_| |_(_)_|\___/ 
-    |___/                                      
-			     🌩 𝘼𝙣𝙮𝙤𝙣𝙚 𝙘𝙖𝙣 𝙙𝙚𝙫𝙚𝙡𝙤𝙥!
-└───────────────────────────────────────────────┘
-```
-
-# goormIDE
-Welcome to goormIDE!
-
-goormIDE is a powerful cloud IDE service to maximize productivity for developers and teams.  
-**DEVELOP WITH EXCELLENCE**  
-
-`Happy coding! The goormIDE team`
-
-
-## 🔧 Tip & Guide
-
-* Command feature
-	* You can simply run your script using the shortcut icons on the top right.
-	* Check out `PROJECT > Common/Build/Run/Test/Find Command` in the top menu.
-	
-* Get URL and Port
-	* Click `PROJECT > URL/PORT` in top menu bar.
-	* You can get default URL/Port and add URL/Port in the top menu.
-
-* Useful shortcut
-	
-| Shortcuts name     | Command (Mac) | Command (Window) |
-| ------------------ | :-----------: | :--------------: |
-| Copy in Terminal   | ⌘ + C         | Ctrl + Shift + C |
-| Paste in Terminal  | ⌘ + V         | Ctrl + Shift + V |
-| Search File        | ⌥ + ⇧ + F     | Alt + Shift + F  |
-| Terminal Toggle    | ⌥ + ⇧ + B     | Alt + Shift + B  |
-| New Terminal       | ⌥ + ⇧ + T     | Alt + Shift + T  |
-| Code Formatting    | ⌥ + ⇧ + P     | Alt + Shift + P  |
-| Show All Shortcuts | ⌘ + H         | Ctrl + H         |
-
-## 💬 Support & Documentation
-
-Visit [https://ide.goorm.io](https://ide.goorm.io) to support and learn more about using goormIDE.  
-To watch some usage guides, visit [https://help.goorm.io/en/goormide](https://help.goorm.io/en/goormide)
+[내부 프로젝트] 카카오톡 챗봇 서비스 개발 (2021.01 ~ 2022.08)
+대규모 딥러닝 언어모델을 통한 육아정보 제공 챗봇 서비스 (키즈모아)
+- 어린 아이를 키우면서 필요한 정보를 카카오톡 메신저를 통해 즉각적이고 쉽게 받아볼 수 있도록 다양한 정보를 제공하고 있음.
+- 데이터 크롤링, API를 통해 수집한 다양한 정보(쇼핑/유치원/키즈존/병원/약국/응급실 등)를 고객의 위치 정보를 반영하여 적절한 정보 제공
+- 질문에 관해서는 네이버 지식iN 정보를 활용하여 유사도 분석으로 답변을 가지고 있을법한 글을 선택하고 그 안에서 KorBERT(ETRI 제공) 모델을 통해 답변을 포함하고 있을 확률이 높은 글의 리스트를 제공하고 있음
+- 일상대화 및 심리상담 데이터(Ai hub 제공)를 통해 KoGPT2(SKT제공) 모델을 학습하여 우울감, 걱정, 고민 등에 맞춰 대화가 가능하도록 개발함
